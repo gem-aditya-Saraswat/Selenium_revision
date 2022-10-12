@@ -11,6 +11,7 @@ What did you learn while building this project? What challenges did you face and
 - First task to import selenium module in the project.
 - Most of the time if you are using any ide project created as maven project while using selenium.
 - Sometimes You need to import external dependencies in pom.xml.
+- Use of webdriver should match your current version of web-browser which you are using.
 
 
 ## Things to remember
