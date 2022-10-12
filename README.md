@@ -1,7 +1,7 @@
+
 # Selenium
 
 Selenium is a free (open-source) automated testing framework used to validate web applications across different browsers and platforms. You can use multiple programming languages like Java, C#, Python, etc to create Selenium Test Scripts. Testing done using the Selenium testing tool is usually referred to as Selenium Testing.
-
 
 ## Lessons Learned
 
@@ -15,6 +15,14 @@ What did you learn while building this project? What challenges did you face and
 
 ## Things to remember
 
+#### Packages to import
+
+```http
+  import org.openqa.selenium.WebElement;
+  import org.openqa.selenium.WebDriver;
+  import org.openqa.selenium.chrome.ChromeDriver;
+```
+
 #### Webdriver
 
 ```http
@@ -26,3 +34,12 @@ What did you learn while building this project? What challenges did you face and
 | :-------- | :------- | :------------------------- |
 | `Chromedriver` | `WebDriver` | **WebDriver driver = new ChromeDriver();** |
 
+#### get
+
+```http
+  Used to get the given url as parameter.
+```
+
+| Parameter | Function name     | Syntax                |
+| :-------- | :------- | :------------------------- |
+| `Url to find` | `get` | **driver.get("url");** |
