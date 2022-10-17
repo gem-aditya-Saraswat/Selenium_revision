@@ -47,4 +47,16 @@ What did you learn while building this project? What challenges did you face and
 | `To give inputs` | `sendKeys()` | **var_name.sendKeys("Value To input");**|
 | `To click a button` | `click()` | **button.click();**|
 | `To give waiting time before performing an action` | `wait()` | **driver.wait(secounds in millis);**|
- 
+
+
+#### Drop-Down implementation or Select package
+```http
+    Import the package org.openqa.selenium.support.ui.Select
+    Instantiate the drop-down box as an object, Select in Selenium WebDriver
+
+    Syntax - Select variable-name = new Select(driver.findElement(By.xpath("Give x path of Dropdown")));
+```
+
+##### Refrence for Dropdown functions - [Click to View](https://www.guru99.com/select-option-dropdown-selenium-webdriver.html#:~:text=the%20selectByVisibleText()%20method.-,Select%20Methods,-The%20following%20are)
+
+
