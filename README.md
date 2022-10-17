@@ -11,7 +11,6 @@ What did you learn while building this project? What challenges did you face and
 - First task to import selenium module in the project.
 - Most of the time if you are using any ide project created as maven project while using selenium.
 - Sometimes You need to import external dependencies in pom.xml.
-- Use of webdriver should match your current version of web-browser which you are using.
 
 
 ## Things to remember
@@ -31,16 +30,21 @@ What did you learn while building this project? What challenges did you face and
   It's initialization with the Webdriver we are using.
 ```
 
-| Parameter | class     | Syntax                |
+| Driver | class     | Syntax                |
 | :-------- | :------- | :------------------------- |
 | `Chromedriver` | `WebDriver` | **WebDriver driver = new ChromeDriver();** |
 
-#### get
+#### Functions & Syntax
 
 ```http
   Used to get the given url as parameter.
 ```
 
-| Parameter | Function name     | Syntax                |
+| Description | Function name     | Syntax                |
 | :-------- | :------- | :------------------------- |
-| `Url to find` | `get` | **driver.get("url");** |
+| `Url to find` | `get()` | **driver.get("url");** |
+| `The WebElement to find or to select` | `findElement()` | **driver.findElement(By.xpath("Here type the x-path"));** |
+| `To give inputs` | `sendKeys()` | **var_name.sendKeys("Value To input");**|
+| `To click a button` | `click()` | **button.click();**|
+| `To give waiting time before performing an action` | `wait()` | **driver.wait(secounds in millis);**|
+ 
