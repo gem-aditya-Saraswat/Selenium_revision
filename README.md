@@ -36,9 +36,6 @@ What did you learn while building this project? What challenges did you face and
 
 #### Functions & Syntax
 
-```http
-  Used to get the given url as parameter.
-```
 
 | Description | Function name     | Syntax                |
 | :-------- | :------- | :------------------------- |
