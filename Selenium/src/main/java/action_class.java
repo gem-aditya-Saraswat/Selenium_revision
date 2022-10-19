@@ -25,8 +25,8 @@ public class action_class {
         button.click();
 
         //Dropdown Implementation
-        Select drpdown = new Select(driver.findElement(By.xpath("//*[@id='header_container']/div[2]/div[2]/span/select")));
-        drpdown.selectByIndex(2);
+        Select drpdown = new Select(driver.findElement(By.xpath("//select[@class='product_sort_container']")));
+        drpdown.selectByVisibleText("Price (low to high)");
 
         //Item add to cart
         WebElement itemadd = driver.findElement(By.xpath("//*[@id='add-to-cart-sauce-labs-onesie']"));

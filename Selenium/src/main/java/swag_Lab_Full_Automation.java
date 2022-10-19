@@ -30,7 +30,7 @@ public class swag_Lab_Full_Automation {
         button.click();
 
         //Dropdown Implementation
-        Select drpdown = new Select(driver.findElement(By.xpath("//*[@id='header_container']/div[2]/div[2]/span/select")));
+        Select drpdown = new Select(driver.findElement(By.xpath("//select[@class='product_sort_container']")));
         drpdown.selectByIndex(2);
 
         //Item add to cart
