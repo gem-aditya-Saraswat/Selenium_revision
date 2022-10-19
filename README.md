@@ -3,6 +3,7 @@
 
 Selenium is a free (open-source) automated testing framework used to validate web applications across different browsers and platforms. You can use multiple programming languages like Java, C#, Python, etc to create Selenium Test Scripts. Testing done using the Selenium testing tool is usually referred to as Selenium Testing.
 
+
 ## Lessons Learned
 
 What did you learn while building this project? What challenges did you face and how did you overcome them?
@@ -57,3 +58,47 @@ What did you learn while building this project? What challenges did you face and
 ##### Refrence for Dropdown functions - [Click to View](https://www.guru99.com/select-option-dropdown-selenium-webdriver.html#:~:text=the%20selectByVisibleText()%20method.-,Select%20Methods,-The%20following%20are)
 
 
+
+#  XPath
+#### XPath in Selenium is an XML path used for navigation through the HTML structure of the page. It is a syntax or language for finding any element on a web page using XML path expression.
+
+#### Simple Syntax of Xpath
+![App Screenshot](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele1.png)
+
+### Frequently used xpath Locators
+
+| Locators | Description     |
+| :-------- | :------- |
+| `id`      | To find a element by it's id attribute |
+| `classname`      | To find a element by it's classname |
+| `name`      | To find a element by it's name attribute |
+| `link text`      | To find a element by it's text of the link |
+
+### Types of xpaths
+
+#### there are two types of xpaths
+- Absolute xpath
+- Relative xpath
+
+#### Absolute xpath
+
+- It's a direct way to write the xpath.
+- It's disadvantage is if any change happen in UI of website or xpath then xpath is going to fail.
+
+##### Example 
+```http
+    /html/body/div[2]/div[1]/div/h4[1]/b/html[1]/body[1]/div[2]/div[1]/div[1]/h4[1]/b[1]
+```
+
+    - The solution of the above problem is relative xpath.
+
+#### Relative xpath
+
+- It can search elements anywhere on the webpage, means no need to write a long xpath and you can start from the middle of HTML DOM structure.
+
+#### Example of Relative Xpath
+![App Screenshot](https://www.guru99.com/images/3-2016/032816_0758_XPathinSele3.png)
+
+### Link to Dynamic xpath !!!! Important : [Dynamic XPath](https://www.guru99.com/xpath-selenium.html#:~:text=How%20To%20Write%20Dynamic%20XPath%20In%20Selenium%20WebDriver)
+
+### For Practice xpath  : [To practice xpath](https://demo.guru99.com/test/selenium-xpath.html)
